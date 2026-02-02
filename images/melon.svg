@@ -70,4 +70,12 @@
       </g>
     </g>
   </g>
+
+  <script>
+    const svgs = document.querySelector("#melon");
+    svgs.addEventListener("click",
+      function() {
+          console.log("You clicked: " + this.id);
+      })
+  </script>
 </svg>

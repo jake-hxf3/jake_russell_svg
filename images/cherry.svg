@@ -34,6 +34,45 @@
       .cls-7 {
         fill: #ca4e28;
       }
+
+      #cherry:hover > g[id *= "leaf"] {
+        animation: wiggle 0.8s ease-in-out;
+        filter: saturate(2);
+      }
+
+      #cherry-leaf1 {
+        transform-origin: 40% 32%;
+      }
+
+      #cherry:hover #cherry-leaf2 {
+        animation-direction: reverse;
+      }
+
+      #cherry-leaf2 {
+        transform-origin: 49% 31%;
+      }
+
+      @keyframes wiggle {
+        0% {transform: rotate(0);}
+        25% {transform: rotate(5deg);}
+        50% {transform: rotate(-5deg);}
+        75% {transform: rotate(0);}
+      }
+
+      #cherry > g[id *= "fruit"] {
+        transform-origin: 42.5% 30.4%;
+        transition: all 0.8s ease-in;
+      }
+
+      #cherry:hover > #cherry-fruit1 {
+        filter: saturate(1.5);
+        transform: rotate(5deg);
+      }
+      #cherry:hover > #cherry-fruit2 {
+        filter: saturate(1.5);
+        transform: rotate(-5deg);
+      }
+
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
@@ -63,4 +102,13 @@
       </g>
     </g>
   </g>
+
+
+  <script>
+    const svgs = document.querySelector("#cherry");
+      svgs.addEventListener("click",
+        function() {
+            console.log("You clicked: " + this.id);
+        })
+  </script>
 </svg>

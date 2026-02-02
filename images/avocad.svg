@@ -52,16 +52,16 @@
       }
 
       #avocad:hover #avocad-leaf {
-        animation: wiggle 0.8s ease-in-out infinite;
+        animation: wiggle 0.8s ease-in-out 2;
       }
 
       #avocad-pit {
         transform-origin: 65% 70%;
-        transition: all 0.8s ease-in-out;
+        transition: all 1.2s ease-in-out;
       }
 
       #avocad:hover #avocad-pit {
-        transform: rotate(185deg);
+        transform: rotate(160deg);
       }
 
       @keyframes wiggle {
@@ -71,10 +71,6 @@
         75% {transform: rotate(0);}
       }
     </style>
-
-    <script>
-      
-    </script>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g id="avocad">
@@ -97,4 +93,12 @@
       </g>
     </g>
   </g>
+
+      <script>
+      const svgs = document.querySelector("#avocad");
+      svgs.addEventListener("click",
+        function() {
+            console.log("You clicked: " + this.id);
+        })
+    </script>
 </svg>

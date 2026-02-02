@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 1.2rem;
     padding: 1.5rem 0;
 }
 
@@ -20,16 +21,20 @@ footer {
     padding: 2rem;
 }
 
+object:hover {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
 #gallery h2 {
     text-align: center;
     margin-bottom: 1rem;
 }
 
 #gallery > div{
-    background-color: cyan;
+    //background-color: cyan;
     text-align: center;
     margin-bottom: 1.2rem;
-    height: 300px;
+    height: max-content;
 }
 
 #gallery p{
