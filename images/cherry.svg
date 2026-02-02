@@ -36,7 +36,7 @@
       }
 
       #cherry:hover > g[id *= "leaf"] {
-        animation: wiggle 0.8s ease-in-out;
+        animation: wiggle 0.8s ease-in-out 0.8s;
         filter: saturate(2);
       }
 
@@ -61,7 +61,7 @@
 
       #cherry > g[id *= "fruit"] {
         transform-origin: 42.5% 30.4%;
-        transition: all 0.8s ease-in;
+        transition: all 0.8s ease-in 0.8s;
       }
 
       #cherry:hover > #cherry-fruit1 {
@@ -75,7 +75,7 @@
 
     </style>
   </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
+  <g id="fruit" data-name="Layer 1">
     <g id="cherry">
       <path id="cherry-branch-0" class="cls-6" d="M54.27,40.49c.69,1.26.22,2.84-1.04,3.53-1.26.69-2.84.22-3.53-1.04,0-.01-2.31-4.14-3.87-15.42-.2-1.43.8-2.74,2.23-2.93,1.42-.2,2.74.8,2.93,2.22,1.43,10.32,3.28,13.63,3.29,13.64Z"/>
       <g id="cherry-leaf2">
