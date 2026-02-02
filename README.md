@@ -1,7 +1,7 @@
 # Project Name
-![insert alt text](images/example.jpg)
+![image of fruit icons](images/fruits.png)
 
-This is a project about [insert topic].
+This is a project about making interactive SVGs of fruit icons.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
