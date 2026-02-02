@@ -54,4 +54,12 @@
       </g>
     </g>
   </g>
+
+  <script>
+    const svgs = document.querySelector("#passfr");
+    svgs.addEventListener("click",
+      function() {
+          console.log("You clicked: " + this.id);
+      })
+  </script>
 </svg>

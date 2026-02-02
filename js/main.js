@@ -1,10 +1,10 @@
 console.log("JS file connected");
 
-const svgs = document.querySelectorAll("#gallery");
-console.log(svgs);
+/* const fruits = document.querySelectorAll("#gallery > div");
+console.log(fruits);
 
 function logId() {
     console.log(this.id);
 }
 
-svgs.forEach(x => x.addEventListener("click", logId));
+fruits.forEach(x => x.addEventListener("click", logId)); */
