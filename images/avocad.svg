@@ -61,7 +61,7 @@
       }
 
       #avocad:hover #avocad-pit {
-        transform: rotate(180deg);
+        transform: rotate(185deg);
       }
 
       @keyframes wiggle {
