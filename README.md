@@ -1,4 +1,4 @@
-# Project Name
+# Interactive SVG
 ![image of fruit icons](images/fruits.png)
 
 This is a project about making interactive SVGs of fruit icons.
