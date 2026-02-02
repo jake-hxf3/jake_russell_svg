@@ -46,6 +46,30 @@
       .cls-10 {
         fill: #685c26;
       }
+
+      #avocad-leaf {
+        transform-origin: 20% 15%;
+      }
+
+      #avocad:hover #avocad-leaf {
+        animation: wiggle 0.8s ease-in-out infinite;
+      }
+
+      #avocad-pit {
+        transform-origin: 65% 70%;
+        transition: all 0.8s ease-in-out;
+      }
+
+      #avocad:hover #avocad-pit {
+        transform: rotate(180deg);
+      }
+
+      @keyframes wiggle {
+        0% {transform: rotate(0);}
+        25% {transform: rotate(15deg);}
+        50% {transform: rotate(-15deg);}
+        75% {transform: rotate(0);}
+      }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
