@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1.5rem 0;
+}
+
+.grid-con {
+    margin-bottom: 2rem;
+}
+
+header, footer {
+    text-align: center;
+    border-radius: 15px;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+footer {
+    padding: 2rem;
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#gallery > div{
+    background-color: cyan;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    height: 300px;
+}
+
+#gallery p{
+    visibility: hidden;
+    max-height: 0;
+    text-align: left;
+}
+
+#gallery object{
+    /*max-height: 150px;*/
+    margin-bottom: 1.2rem;
+}
+
+#gallery object:hover + p {
+    visibility: visible;
+    max-height: 1.2rem;
+}
